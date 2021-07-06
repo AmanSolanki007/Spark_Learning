@@ -36,7 +36,7 @@ object Bank_customer {
 
     finalDF.show(false)
 
-    "Show only 4 digit of Creditcardnumber rest of number is hided by XXXX-XXXX-XXXX-"
+    "Show only 4 digit of Creditcardnumber rest of number is hided by XXXX-XXXX-XXXX- "
 
   }
 
