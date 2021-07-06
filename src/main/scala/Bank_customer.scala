@@ -5,8 +5,6 @@ import org.apache.spark.sql.functions._
 object Bank_customer {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
-    case class user_info(id:Int,first_name:String,Last_name:String,email:String,gender:String,ip_address:String)
-    case class tran_info(id:Int,first_name:String,Phone_number:Long,trans_ID:String,CreditCardDetails:Double)
 
     val spark = SparkSession.builder()
       .master("local[*]")
